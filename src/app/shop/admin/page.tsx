@@ -1,7 +1,9 @@
-export default function Admin({ children }: { children: React.ReactNode }) {
-  console.log("as")
+import { titleFont } from "@/config/fonts";
+import Image from "next/image";
+
+export default function Admin() {
   return (
     //
-    <div className="min-h-screen bg-red-500">{children}</div>
+    <h1>Admin page</h1>
   );
 }

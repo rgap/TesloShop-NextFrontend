@@ -1,10 +1,11 @@
 import { titleFont } from "@/config/fonts";
 import Image from "next/image";
 
-export default function NewAccount() {
+export default function ProductDetails() {
   return (
-    <div className="">
-      <h1>New Account Page</h1>
+    //
+    <div>
+      <h1>Product details page</h1>
     </div>
   );
 }
